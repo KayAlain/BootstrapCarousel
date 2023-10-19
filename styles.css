@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+}
+
+.navbar {
+    background: goldenrod !important;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar ul li:hover {
+    background: blue !important;
+}
+
+#about,
+#services,
+#contact {
+    padding: 70px 0px;
+}
+
+.back-to-top {
+    position: fixed;
+    top: 80%;
+    margin: 20px;
+    right: 0;
+    z-index: 100;
+    display: none;
+}
+
+.scrolled {
+    display: initial !important;
+}
